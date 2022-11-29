@@ -1,0 +1,253 @@
+*{
+    font-family: 'Teko', sans-serif;
+}
+
+body{
+    background-color: #fff;
+
+    .navbar{
+        .container{
+            .brand-samaquran{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 47.4074px;
+                line-height: 68px;
+                color: #488396;
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 36px;
+                            margin-left: 18px;
+                            color: #488396;
+                            .icon{
+                                width: 30px;
+                                height: auto;
+                            }
+                        }
+                        .active{
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header{
+        margin-top: 90px;
+        margin-bottom: 90px;
+        .row{
+            img{
+                border-radius: 50px 5px 50px 5px;
+            }
+            .kartu{
+                border-style: solid;
+                border-color: #488396;
+                border-top: none;
+                border-bottom: none;
+                border-width: 5px;
+                border-right: none;
+                    .hadis{
+                        font-family: 'Avenir LT Std';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 40px;
+                        word-spacing: 5px;
+                        color: #488396;
+                        margin-left: 16px;
+                    }
+            }
+        }
+    }
+
+    .quran{
+        background-color: #488396;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        .sama{
+            font-family: 'Teko';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 70px;
+            line-height: 138px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .cari{
+            padding-bottom: 50px;
+            .input-group{
+                height: 80px;
+                border-radius: 35px;
+                .form-control{
+                    background: #FFFFFF;
+                    border-radius: 35px;
+                    padding-left: 35px;
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 30px;
+                }
+                .btn-cari{
+                    background: #EEF7F7;
+                    border-radius: 0px 35px 35px 0px;
+                    width: 144px;
+                    height: 80px;
+                    border: none;
+                }
+            }
+        }
+        .list{
+            .card{
+                background: #EEF7F7;
+                border-radius: 25px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                .card-body{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .lingkar{
+                        background: #488396;
+                        height: 75px;
+                        width: 75px;
+                        border-radius: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #EEF7F7;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 48px;
+                    }
+                    .nama{
+                        margin-left: -70px;
+                        padding-top: 12px;
+                        .surah{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 36px;
+                            color: #488396;
+                        }
+                        .arti{
+                            font-family: 'Poppins';
+                            color: #488396;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin-top: -20px;
+                        }                        
+                    }
+                    @media (max-width: 912px) {
+                        .nama{
+                            margin-left: -170px;
+                            padding-top: 12px;                   
+                        }
+                    }
+                    .ayat{
+                        padding-top: 16px;
+                        font-family: 'Poppins';
+                        color: #488396;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding-right: 8px;
+                    }
+                }
+                &:hover{
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+
+    .detail{
+        padding-top: 50px;
+        padding-bottom: 120px;
+        background-color: #488396;
+        .card{
+            border: none;
+            .card-header{
+                background-color:#EEF7F7;
+                border-bottom-width: 1px;
+                border-bottom-color: #89bcce;
+                h4{
+                    margin-top: 10px;
+                    font-family: 'Poppins';
+                }
+                span{
+                    // margin-top: 16px;
+                    padding-top: 10px;
+                    font-family: 'Poppins';
+                }
+                .tombol{
+                    a{
+                      margin-top: 8px;
+                      background-color: #488396;
+                      border: none;
+                      border-color: #488396;
+                      font-family: 'Poppins';  
+                    }
+                }
+            }
+            .card-body{
+                background-color:#EEF7F7;
+                .arab{
+                    font-family: Lateef;
+                    font-size: 3rem;
+                    line-height: 1;
+                    text-align: end;
+                    margin-top: 28px;
+                    margin-bottom: 28px;
+                }
+                span{
+                    font-family: 'Poppins';
+                }
+            }
+        }
+    }
+
+    .footer{
+        padding-bottom: 30px;
+        margin-top: 90px;
+        .sama{
+            font-family: 'Teko';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 92px;
+            color: #488396;
+        }
+        .t-footer{
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #488396;
+                a{
+                    margin-right: 14px;
+                    text-decoration: none;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #488396;
+                }                
+            }
+        }
+    }
+}

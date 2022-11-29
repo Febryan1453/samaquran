@@ -1,0 +1,229 @@
+* {
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+body .navbar .container .brand-samaquran {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 47.4074px;
+  line-height: 68px;
+  color: #488396;
+}
+body .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 36px;
+  margin-left: 18px;
+  color: #488396;
+}
+body .navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link .icon {
+  width: 30px;
+  height: auto;
+}
+body .navbar .container .navbar-collapse .navbar-nav .nav-item .active {
+  font-weight: 600;
+}
+body .header {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+body .header .row img {
+  border-radius: 50px 5px 50px 5px;
+}
+body .header .row .kartu {
+  border-style: solid;
+  border-color: #488396;
+  border-top: none;
+  border-bottom: none;
+  border-width: 5px;
+  border-right: none;
+}
+body .header .row .kartu .hadis {
+  font-family: "Avenir LT Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  word-spacing: 5px;
+  color: #488396;
+  margin-left: 16px;
+}
+body .quran {
+  background-color: #488396;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+body .quran .sama {
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 138px;
+  text-align: center;
+  color: #FFFFFF;
+}
+body .quran .cari {
+  padding-bottom: 50px;
+}
+body .quran .cari .input-group {
+  height: 80px;
+  border-radius: 35px;
+}
+body .quran .cari .input-group .form-control {
+  background: #FFFFFF;
+  border-radius: 35px;
+  padding-left: 35px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 30px;
+}
+body .quran .cari .input-group .btn-cari {
+  background: #EEF7F7;
+  border-radius: 0px 35px 35px 0px;
+  width: 144px;
+  height: 80px;
+  border: none;
+}
+body .quran .list .card {
+  background: #EEF7F7;
+  border-radius: 25px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+body .quran .list .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .quran .list .card .card-body .lingkar {
+  background: #488396;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EEF7F7;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+}
+body .quran .list .card .card-body .nama {
+  /* margin-left: -40px; */
+  padding-top: 12px;
+}
+body .quran .list .card .card-body .nama .surah {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #488396;
+}
+body .quran .list .card .card-body .nama .arti {
+  font-family: "Poppins";
+  color: #488396;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: -20px;
+}
+@media (max-width: 912px) {
+  body .quran .list .card .card-body .nama {
+    margin-left: -170px;
+    padding-top: 12px;
+  }
+}
+body .quran .list .card .card-body .ayat {
+  padding-top: 16px;
+  font-family: "Poppins";
+  color: #488396;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 8px;
+}
+body .quran .list .card:hover {
+  background-color: #fff;
+}
+body .detail {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background-color: #488396;
+}
+body .detail .card {
+  border: none;
+}
+body .detail .card .card-header {
+  background-color: #EEF7F7;
+  border-bottom-width: 1px;
+  border-bottom-color: #89bcce;
+}
+body .detail .card .card-header h4 {
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+body .detail .card .card-header span {
+  padding-top: 10px;
+  font-family: "Poppins";
+}
+body .detail .card .card-header .tombol a {
+  margin-top: 8px;
+  background-color: #488396;
+  border: none;
+  border-color: #488396;
+  font-family: "Poppins";
+}
+body .detail .card .card-body {
+  background-color: #EEF7F7;
+}
+body .detail .card .card-body .arab {
+  font-family: Lateef;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: end;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+body .detail .card .card-body span {
+  font-family: "Poppins";
+}
+body .footer {
+  padding-bottom: 30px;
+  margin-top: 90px;
+}
+body .footer .sama {
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 92px;
+  color: #488396;
+}
+body .footer .t-footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #488396;
+}
+body .footer .t-footer p a {
+  margin-right: 14px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #488396;
+}/*# sourceMappingURL=main.css.map */
